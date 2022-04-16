@@ -15,8 +15,13 @@
         .visuallyhidden {
             display: none;
         }
+        
         .nav-bg {
             background-color: #7D9876;
+        }
+
+        .btn {
+            background-color: #BB8028;
         }
 
         .line {
@@ -105,7 +110,16 @@
     <div class="container">
         <div class="card pt-3 border-0">
             <form action="">
-                
+                <p class="paragraph pt-3 mb-1 text-center">vulputate mi sit amet mauris commodo quis imperdiet massa 
+                    tincidunt nunc pulv</p>    
+                <div class="mb-3">
+                    <label for="formComment" class="form-label">Comment</label>
+                    <input type="text" class="form-control" id="formComment" aria-describedby="commentHelp">
+                    <div id="commentHelp" class="form-text">The comment will be reviewed before it is published.</div>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary border-0" type="submit">Submit comment</button>
+                </div>
             </form>
         </div>
     </div>
