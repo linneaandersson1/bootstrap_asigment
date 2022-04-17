@@ -1,0 +1,23 @@
+.visuallyhidden {
+    display: none;
+}
+
+.nav-bg {
+    background-color: #7D9876;
+}
+
+@media screen and (min-width: 500px) {
+    .googlemap {
+        height: 480px;
+    }
+
+    .card-title {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .googlemap {
+        height: 500px;
+    }
+}
