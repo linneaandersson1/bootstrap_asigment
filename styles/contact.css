@@ -3,7 +3,11 @@
 }
 
 .nav-bg {
-  background-color: #7D9876;
+  background-color: #64805c;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
 }
 
 .btn {
@@ -20,11 +24,9 @@
   .container {
     margin-bottom: 30px;
   }
-}
-
-@media screen and (min-width: 900px) {
-  .card-text {
-    margin-top: 30px;
+  .card-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=contact.css.map */

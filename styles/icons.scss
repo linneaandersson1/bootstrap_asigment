@@ -1,13 +1,14 @@
-
-.visuallyhidden {
-    display: none;
-}
-.nav-bg {
-    background-color: #7D9876;
-}
+@import 'nav';
 
 .line {
     background-color: #54664F;
     height: 2px;
     width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .card-title {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
 }

@@ -3,12 +3,31 @@
 }
 
 .nav-bg {
-  background-color: #7D9876;
+  background-color: #64805c;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.line {
+  background-color: #54664F;
+  height: 2px;
+  width: 100%;
+}
+
+.footer-copyright {
+  background-color: #64805c;
+}
+
+.fab {
+  color: #cc7e08;
 }
 
 @media screen and (min-width: 500px) {
   .googlemap {
     height: 480px;
+    margin-top: 20px;
   }
   .card-title {
     margin-top: 30px;
