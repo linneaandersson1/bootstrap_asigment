@@ -10,7 +10,7 @@
   color: #fff;
 }
 
-.btn {
+.btn-primary {
   background-color: #BB8028;
 }
 
@@ -18,6 +18,14 @@
   background-color: #54664F;
   height: 2px;
   width: 100%;
+}
+
+.footer-copyright {
+  background-color: #64805c;
+}
+
+.fab {
+  color: #cc7e08;
 }
 
 @media screen and (min-width: 400px) {

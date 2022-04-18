@@ -1,6 +1,7 @@
+
 @import 'nav';
 
-.btn {
+.btn-primary {
     background-color: #BB8028;
 }
 
@@ -10,6 +11,8 @@
     width: 100%;
     margin-bottom: 20px;
 }
+
+@import 'footer';
 
 @media screen and (min-width: 500px) {
 

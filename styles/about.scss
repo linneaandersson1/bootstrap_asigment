@@ -1,6 +1,6 @@
 @import 'nav';
 
-.btn {
+.btn-primary {
     background-color: #BB8028;
 }
 
@@ -9,6 +9,8 @@
     height: 2px;
     width: 100%;
 }
+
+@import 'footer';
 
 @media screen and (min-width:500px) {
     .card-title {
